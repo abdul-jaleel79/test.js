@@ -73,14 +73,20 @@ for (i=2; i <=10; i= i+2){
 
 
  //9th answer
-  function divide(a,b) {
-      try{
-          if (b===0){
-              throw new Error("Division by zero");
-          }
-          return a/b;
-      } catch (error){
-          console.log(error.message);
-      }
-  }
+  let a = parseFloat(prompt("Enter the number a"));
+let b = parseFloat(prompt("Enter the number b"));
+
+function divide(a, b) {
+    try {
+        if (b === 0) {
+            throw new Error("Division by zero");
+        }
+        return a / b;
+    } catch (error) {
+        console.log(error.message);
+    }
+}
+
+console.log(divide(a, b));
+
 
