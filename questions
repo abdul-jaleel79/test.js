@@ -1,24 +1,24 @@
 //1st question
-// /*let name =("roy")
-// console.log("hello"+ name)
-// */
-// //2nd question
-// /*let a = 5
-// let b = 3
-// console.log(a+b)
-// console.log(a-b)
-// console.log(a*b)
-// console.log(a/b)
-// */
-// //3rd qustion
-// /*
-// let a = "roy";
-// b = a.toUpperCase();
-//  console.log (b)
-// */
+let name =("roy")
+ console.log("hello"+ name)
+
+ //2nd question
+let a = 5
+ let b = 3
+ console.log(a+b)
+ console.log(a-b)
+ console.log(a*b)
+ console.log(a/b)
+
+//3rd qustion
+
+ let a = "roy";
+ b = a.toUpperCase();
+  console.log (b)
+
 
 // 4th question
- /*let num = prompt("enter a number");
+ let num = prompt("enter a number");
 {
 if (num % 2 == 0)  {
 console.log("the number is even")
@@ -26,9 +26,9 @@ console.log("the number is even")
 else {
     console.log("the number is odd");
 }
-}*/
+}
 //5th question
-/*
+
 let favouritfruits = [
     'apple', 'banana', 'mango', 'kiwi'
 ]
@@ -37,10 +37,10 @@ function logfruits(fruits){
         console.log(`i, {fruits[i]}`)
     }
 }
-logfruits(favouritfruits)*/
+logfruits(favouritfruits)
 
 //6th question
- /*
+ 
  let object = [
     title = 'the art of happyness',
     auther = 'dalai lama',
@@ -48,39 +48,39 @@ logfruits(favouritfruits)*/
  ]
 
  console.log("the book title is "+  title + " and the auther name is "+ auther + " and the year of published is "+ Published )
-*/
+
 
 //7th question
 
-/*let a = prompt("enter number A ")
+let a = prompt("enter number A ")
 b = prompt ("enter number B ")
 parseInt 
 
  
 console.log (`the sum of `+ a +` and ` + b + ` is `+ [a + b] )
-*/
+
 // 8th question
-/*
+
 for (i=2; i <=10; i= i+2){
  console.log(i)
-}*/
+}
 
 // // 10th question 
 
-/*
+
  const RNumber = Math.floor(Math.random() *100) +1
  console.log(`random number: ${RNumber}`)
-*/
+
 
  //9th answer
- // function divide(a,b) {
- //     try{
- //         if (b===0){
- //             throw new Error("Division by zero");
- //         }
- //         return a/b;
- //     } catch (error){
- //         console.log(error.message);
- //     }
- // }
+  function divide(a,b) {
+      try{
+          if (b===0){
+              throw new Error("Division by zero");
+          }
+          return a/b;
+      } catch (error){
+          console.log(error.message);
+      }
+  }
 
